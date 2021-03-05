@@ -1,17 +1,17 @@
 <template>
   <div class="light_back">
     <div class="intro-header">
-      <div class="container">
-        <div class="row">
+      <div class="container py-5 text-light">
+        <div class="row py-5 mt-5">
           <div class="col-lg-12">
             <div class="intro-message">
               <h1>Hi there!</h1>
               <h2>
-                My name is Ade Permana Putra. <br />I am Freelance Designer from
-                Indonesia.
+                My name is Md. Mashfiqur Rahman. <br />I am Freelance Designer from
+                Bangladesh.
               </h2>
               <h3>
-                I have over 5 years experience of digital design expertise. I
+                I have over 2 years experience of digital design expertise. I
                 had the opportunity to produce numerous digital projects for
                 national clients such as Takon, Spots, Pay.id, Appsence, Fasyen,
                 TopUp and other exiciting projects. But enough about me, how

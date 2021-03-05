@@ -31,7 +31,7 @@ export default {
 } */
 
 html { 
-  background:  url(http://upload.wikimedia.org/wikipedia/commons/d/dd/Muybridge_race_horse_animated.gif) no-repeat center center fixed; 
+  background:  url('https://i.gifer.com/2DYg.gif') no-repeat center center fixed; 
   background-size: cover;
 }
 
