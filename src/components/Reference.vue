@@ -69,6 +69,7 @@ name: 'Reference',
 @import"https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700";
 .backto{background:#039; padding:12px 0; color:#fff}
 .backto a{color:#FFF; text-decoration:none}
+.caption{color: white;}
 .thumbnail{padding:0; border-radius:0; border:none; box-shadow:0 2px 5px 0 rgba(0,0,0,.16),0 2px 10px 0 rgba(0,0,0,.12)}
 .thumbnail>img{width:100%; display:block}
 .thumbnail h3{font-size:26px}

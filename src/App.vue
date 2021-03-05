@@ -27,9 +27,19 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
-body, html {
+/* body, html {
   height: 100%;
+} */
+
+html { 
+  background:  url(http://upload.wikimedia.org/wikipedia/commons/d/dd/Muybridge_race_horse_animated.gif) no-repeat center center fixed; 
+  background-size: cover;
 }
+
+body {
+    height: 100%;
+}
+
 
 .bg {
   /* The image used */

@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="light_back">
     <div class="intro-header">
       <div class="container">
         <div class="row">
@@ -32,4 +32,8 @@ export default {
 </script>
 
 <style>
+.light_back{
+   background: inherit;
+   background-color: rgba(0, 0, 0, 0);
+}
 </style>

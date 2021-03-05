@@ -193,6 +193,7 @@ export default {
 
 .caption-body-portfolio{
 	margin-top: 80px;
+
 }
 
 .imagebox{
