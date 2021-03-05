@@ -6,7 +6,7 @@ import VueRouter from 'vue-router'
 import Home from './components/Home.vue'
 import Education from './components/Education.vue'
 import Experience from './components/Experience.vue'
-import Project from './components/Project.vue'
+import ProjectJson from './components/ProjectJson.vue'
 import Personal from './components/Personal.vue'
 import Reference from './components/Reference.vue'
 import Contact from './components/Contact.vue'
@@ -21,7 +21,7 @@ const router = new VueRouter({
     { path:'/', component: Home },
     { path:'/education', component: Education },
     { path:'/experience', component: Experience },
-    { path:'/projects', component: Project },
+    { path:'/projects', component: ProjectJson },
     { path:'/personal', component: Personal },
     { path:'/reference', component: Reference },
     { path:'/contact', component: Contact }
