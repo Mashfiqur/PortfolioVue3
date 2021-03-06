@@ -17,7 +17,7 @@
 
      
     </li>
-<a class="flat-butt flat-info-butt flat-info-grad-butt" download="CV.docx" href="/files/Cv_Md.Mashfiqur_Rahman.docx">Download CV/ Resume</a>
+<a class="flat-butt flat-info-butt flat-info-grad-butt" download="Mashfiqur_Rahman.docx" href="/files/Cv_Md.Mashfiqur_Rahman.docx">Download CV/ Resume</a>
 
   </ul>
   
@@ -190,6 +190,7 @@ export default {
 }
 .flat-butt {
   display: inline-block;
+  text-decoration: none !important;
   margin: 0 5px;
   border-radius: 6px;
   font-family: "Lato", sans-serif;
