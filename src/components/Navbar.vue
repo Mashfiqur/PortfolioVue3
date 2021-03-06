@@ -58,24 +58,30 @@ export default {
         },
         {
           id: 4,
+          icon: "fab fa-js",
+          text: "Skills",
+          url: '/skills'
+        },
+        {
+          id: 5,
           icon: "fab fa-html5",
           text: "Projects",
           url: '/projects'
         },
         {
-          id: 5,
+          id: 6,
           icon: "fab fa-css3-alt",
           text: "Personal Info",
           url: '/personal'
         },
         {
-          id: 6,
+          id: 7,
           icon: "fab fa-js",
           text: "References",
           url: '/reference'
         },
         {
-          id: 7,
+          id: 8,
           icon: "fab fa-js",
           text: "Contact",
           url: '/contact'

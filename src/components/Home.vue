@@ -4,7 +4,7 @@
       <div class="container py-5 text-light">
         <div class="row py-5 mt-5">
           <div class="col-lg-12">
-            <div class="intro-message">
+            <div class=" card glass ">
               <h1>Hi there!</h1>
               <h2>
                 My name is Md. Mashfiqur Rahman. <br />I am Freelance Designer from
@@ -35,5 +35,9 @@ export default {
 .light_back{
    background: inherit;
    background-color: rgba(0, 0, 0, 0);
+}
+.glass{
+   background-color: rgba(20, 20, 20, 0);
+
 }
 </style>

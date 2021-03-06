@@ -1,6 +1,6 @@
 <template>
   <div class="container text-center">
-   <ul class="home-list mx-auto mt-3">
+   <ul class="home-list mx-auto mt-5">
            <li><b>Father's Name:</b> Late Gias Uddin</li>   
            <li><b>Mother's Name:</b> Rasheda Begum</li>  
            <li><b>Date of Birth:</b> 19th September, 1995</li>   

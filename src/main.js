@@ -10,6 +10,8 @@ import ProjectJson from './components/ProjectJson.vue'
 import Personal from './components/Personal.vue'
 import Reference from './components/Reference.vue'
 import Contact from './components/Contact.vue'
+import Skill from './components/Skills.vue'
+
 
 
 
@@ -24,7 +26,9 @@ const router = new VueRouter({
     { path:'/projects', component: ProjectJson },
     { path:'/personal', component: Personal },
     { path:'/reference', component: Reference },
-    { path:'/contact', component: Contact }
+    { path:'/contact', component: Contact },
+    { path:'/skills', component: Skill },
+
 
   ],
   mode: 'history'
