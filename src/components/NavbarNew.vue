@@ -17,13 +17,11 @@
 
      
     </li>
-
+<a class="flat-butt flat-info-butt flat-info-grad-butt" download="CV.docx" href="/files/Cv_Md.Mashfiqur_Rahman.docx">Download CV/ Resume</a>
 
   </ul>
   
-  <div id="mobileMenu" class="hambergur-menu">
-    <span class="bar"></span>
-  </div>
+ 
 </nav>
 </template>
 
@@ -190,5 +188,30 @@ export default {
 .sticky + .fisrt-section {
   padding-top: 60px;
 }
+.flat-butt {
+  display: inline-block;
+  margin: 0 5px;
+  border-radius: 6px;
+  font-family: "Lato", sans-serif;
+  font-size: 16.5px;
+  padding: 12px 20px;
+  border: 0;
+  background: #34495E;
+  color: #FFF;
+  cursor: pointer;
+  outline: 0;
+}
+.flat-butt:hover {
+  background: #005580;
+}
 
+.flat-info-butt {
+  background: #3498db;
+}
+.flat-info-butt:hover {
+  background: #5dade2;
+}
+.flat-info-grad-butt {
+  background-image: linear-gradient(#3498DB 50%, #2980B9 50%);
+}
 </style>
