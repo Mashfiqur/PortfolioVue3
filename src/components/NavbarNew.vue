@@ -2,7 +2,7 @@
   <nav id="navbar" class="nav-container">
   <ul class= "nav container" style="margin-top: -60px !important;">
 <li class="">
-      <a class="nav-link logo" href="#"><img src="http://www.elahekarami.ir/NLogo.png" alt="logo" width="80"/></a>
+      <a class="nav-link logo" href="#"><img src="/images/mash1.png" alt="logo" width="120"/></a>
     </li>
     <li
       class="nav-item"
@@ -195,7 +195,7 @@ export default {
   border-radius: 6px;
   font-family: "Lato", sans-serif;
   font-size: 16.5px;
-  padding: 12px 20px;
+  padding: 3px 10px;
   border: 0;
   background: #34495E;
   color: #FFF;
