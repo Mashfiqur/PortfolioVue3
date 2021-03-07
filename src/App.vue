@@ -31,12 +31,15 @@ export default {
 } */
 
 html { 
-  background:  url('https://i.gifer.com/2DYg.gif') no-repeat center center fixed; 
+  /* background:  url('https://i.gifer.com/2DYg.gif') no-repeat center center fixed;  */
+  background:  url('/images/background3.jpg') no-repeat center center fixed; 
+  
   background-size: cover;
 }
 
 body {
     height: 100%;
+    
 }
 
 

@@ -1,5 +1,5 @@
 <template>
-  <div class="container mt-4">
+  <div class="container mt-5 pt-5">
       <div class="row"  v-for="skl in skills" v-bind:key="skl.id">
             
             <single-skill :skill="skl" />
@@ -42,8 +42,8 @@ export default {
         },
         {
           id: "5",
-          name: "Javascript",
-          percentage: "80",
+          name: "Laravel",
+          percentage: "85",
           width: 'width:80%'
         },
         {
@@ -57,6 +57,12 @@ export default {
           name: "GIT",
           percentage: "90",
           width: 'width:90%'
+        },
+        {
+          id: "8",
+          name: "Javascript",
+          percentage: "90",
+          width: 'width:85%'
         },
       ],
     };

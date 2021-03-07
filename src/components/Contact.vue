@@ -9,7 +9,7 @@
 
       <section class="section2 clearfix flex">
         <div class="col2 column1 first mt-5">
-          <p class="text-info">
+          <p class="text-dark pb-4 ">
             29/1, 2, 3 Justice Lalmohon Daslane, Sutrapur, Dhaka-1100
           </p>
 
@@ -24,14 +24,14 @@
         </div>
         <div class="col2 column2 last">
           <div class="sec2innercont">
-            <div class="sec2addr">
+            <div class="sec2addr" style=" background:rgba(10,10,10,0.5) ; color: wheat !important;">
               <p><span class="collig">Phone :</span> +8801521455637</p>
               <p><span class="collig">Email :</span> mashfiqurrr@gmail.com</p>
               <p>
                 <span class="collig">Github :</span>
                 <a
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="noopener noreferrer" style="color: white !important; text-decoration:none;"
                   href="https://github.com/Mashfiqur"
                   >https://github.com/Mashfiqur</a
                 >
@@ -39,7 +39,7 @@
             </div>
           </div>
           <div class="sec2contactform">
-            <h3 class="sec2frmtitle">Want to Know More?? Drop me a Mail</h3>
+            <h3 class="text-dark">Want to Know More?? Drop me a Mail</h3>
             <form @submit.prevent="sendEmail">
               <div class="clearfix">
                 <input

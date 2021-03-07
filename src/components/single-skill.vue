@@ -1,11 +1,11 @@
 <template>
   <div class="row container py-2">
-    <div class="col-2 text-center text-info">
+    <div class="col-2 text-center" style=" background:rgba(10,10,10,0.5) ;color: wheat;">
       <h3>{{ skill.name }}</h3>
     </div>
-    <div class="col-10 text-center">
+    <div class="col-10 pt-2 text-center">
       <div
-        class="progress-bar progress-bar-info progress-bar-striped active"
+        class="progress-bar bg-info text-dark progress-bar-striped active"
         role="progressbar"
         :aria-valuenow="skill.percentage"
         aria-valuemin="0"

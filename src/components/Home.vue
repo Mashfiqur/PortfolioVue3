@@ -7,7 +7,7 @@
             <div class=" card glass ">
               <h1>Hi there!</h1>
               <h2>
-                My name is Md. Mashfiqur Rahman. <br />I am Freelance Designer from
+                My name is Md. Mashfiqur Rahman. <br />I am Web Application Designer from
                 Bangladesh.
               </h2>
               <h3>
@@ -37,7 +37,7 @@ export default {
    background-color: rgba(0, 0, 0, 0);
 }
 .glass{
-   background-color: rgba(20, 20, 20, 0);
+   background-color: rgba(20, 20, 20, 0.5);
 
 }
 </style>

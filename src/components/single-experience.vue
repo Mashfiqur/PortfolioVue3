@@ -6,7 +6,7 @@
                 <div class="profile-box-01">
                   <img class="card-img-top" src="https://images.pexels.com/photos/247599/pexels-photo-247599.jpeg?h=350&auto=compress&cs=tinysrgb" alt="Card image cap">
                 </div>
-                <div class="card-body text-center">
+                <div class="card-body text-center" style="background:rgba(10,10,10,0.5);">
                   <span class="badge-box"><i class="fa fa-check"></i></span>
                   <h4 class="card-title">{{ data.company }}</h4>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
