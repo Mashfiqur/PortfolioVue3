@@ -1,33 +1,55 @@
 <template>
-<div class="container">
-		<div class="row " id="formal-education">
-			<div class="col-md-12 side-selection">
-				<h3>Formal Education</h3></div>
-			<div class="col-md-4"><i class="glyphicon glyphicon-book"></i>
-				<p><strong>freeCodeCamp</strong> </p>
-				<p>Development in different activities like HTML new pages, CSS decorations &amp; best practices, JS from learning to programming OOP. Algorithms for programming. Anothers. </p>
-			</div>
-			<div class="col-md-4"><i class="fa fa-briefcase"></i>
-				<p><strong>Universidad Americana</strong></p>
-				<p>Development in different activities like Flash animations, Flash games, websites, logos, corporate image design, validations in php and js. </p>
-			</div>
-			<div class="col-md-4"><i class="fa fa-book"></i>
-				<p><strong>CyberU</strong> </p>
-				<p>Adobe Dreamweaver, Flash, Illustrator, Fireworks, Photoshop. Development in different activities like Flash animations, Flash games, websites, banners, gifs creations and animations with Flash and Photoshop, logos, corporate image
-					design and others. </p>
-			</div>
-		</div>
+  <div class="container p-t-2">
+    <div class="row display-flex mt-5" id="about">
+      <div class="col-sm-4">
+        <img
+          class="m-b-1 img-fluid img-rounded hidden-xs-down"
+          src="/images/NSU.jpg"
+          alt="PortLand"
+        />
+        <div class="glass">
+          <h4>North South University</h4>
+          <h5>Bashundhara Residential Area, Dhaka 1229</h5>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <img
+          class="m-b-1 img-fluid img-rounded hidden-xs-down"
+          src="/images/Buet.jpg"
+          alt="PortLand"
+        />
+        <div class="glass">
+          <h4>Engineering University School & College</h4>
+          <h5>82 Municipal Office Street, Dhaka 1100</h5>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <img
+          class="m-b-1 img-fluid img-rounded hidden-xs-down"
+          src="/images/Gregory.jpg"
+          alt="PortLand"
+        />
+        <div class="glass">
+          <h4>St. Gregory's High School</h4>
+          <h5>82 Municipal Office Street, Dhaka 1100</h5>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
 export default {
-name: 'Education',
-}
+  name: "Education",
+};
 </script>
 
 <style>
-#formal-education{
-	background: #ecf6fb;
+#formal-education {
+  background: #ecf6fb;
+}
+.glass {
+  background-color: rgba(20, 20, 20, 0.5);
+  color: rgb(243, 241, 239);
 }
 </style>

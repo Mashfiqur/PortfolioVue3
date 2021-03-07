@@ -1,5 +1,5 @@
 <template>
-  <nav id="navbar" class="nav-container">
+  <nav id="navbar" class="nav-container navbar-fixed-top" >
   <ul class= "nav container" style="margin-top: -60px !important;">
 <li class="">
       <a class="nav-link logo" href="#"><img src="/images/mash1.png" alt="logo" width="120"/></a>

@@ -26,6 +26,7 @@ export default {
         {
           projectNo: "project1",
           Demolink: "https://manageyourecommerce.com/",
+          Github: null,
           Pavatar:
             "https://res.cloudinary.com/dcl67luxn/image/upload/v1543875011/3.png",
           Pname: "Manage Your Ecommerce",
@@ -36,6 +37,7 @@ export default {
         {
           projectNo: "project2",
           Demolink: "https://inventorykeeper.net/",
+          Github: null,
           Pavatar:
             "https://res.cloudinary.com/dcl67luxn/image/upload/v1543875011/4.png",
           Pname: "Inventory Keeper",
@@ -46,6 +48,7 @@ export default {
         {
           projectNo: "project3",
           Demolink: "https://attendancekeeper.net/",
+          Github: null,
           Pavatar:
             "https://res.cloudinary.com/dcl67luxn/image/upload/v1543875011/2.png",
           Pname: "Attendance Keeper",
@@ -56,10 +59,71 @@ export default {
         {
           projectNo: "project4",
           Demolink: "https://evidentbd.com/",
+          Github: null,
           Pavatar:
             "https://res.cloudinary.com/dcl67luxn/image/upload/v1543875011/4.png",
           Pname: "Evident BD",
           Pdescription: "A web application for Evident BD Ltd",
+          Readlink: "/",
+        },
+         {
+          projectNo: "project5",
+          Demolink: null,
+          Github: "https://github.com/Mashfiqur/Inventory_Supplier_Company",
+          Pavatar:
+            "https://res.cloudinary.com/dcl67luxn/image/upload/v1543875011/4.png",
+          Pname: "Supplier Distributor Management",
+          Pdescription: "A web application where distributors can order for products to the registered suppliers. On the other hand, Suppliers can see which products they have to supply for a particular company!",
+          Readlink: "/",
+        },
+         {
+          projectNo: "project6",
+          Demolink: null,
+          Github: "https://github.com/Mashfiqur/Video-Chat-WebRTC-Pusher-Laravel",
+          Pavatar:
+            "https://res.cloudinary.com/dcl67luxn/image/upload/v1543875011/4.png",
+          Pname: "Video Chat Application",
+          Pdescription: "A web application for video chatting where users can chat with his/her friends. It is developed through WebRTC(Web Real Time Communication) and Pusher.",
+          Readlink: "/",
+        },
+         {
+          projectNo: "project7",
+          Demolink: null,
+          Github: "https://github.com/Mashfiqur/law_library",
+          Pavatar:
+            "https://res.cloudinary.com/dcl67luxn/image/upload/v1543875011/4.png",
+          Pname: "Law Library",
+          Pdescription: "The website of cases is mainly for law students and for lawyers where different types of cases will be stored in an organized way and students will be able to search this data using keyword.",
+          Readlink: "/",
+        },
+        {
+          projectNo: "project8",
+          Demolink: null,
+          Github: "https://github.com/Mashfiqur/PortfolioVue3",
+          Pavatar:
+            "https://res.cloudinary.com/dcl67luxn/image/upload/v1543875011/4.png",
+          Pname: "Personal Portfolio",
+          Pdescription: "A personal portfolio of mine which is developed on Vue Js 3.",
+          Readlink: "/",
+        },
+         {
+          projectNo: "project9",
+          Demolink: null,
+          Github: "https://github.com/Mashfiqur/Live-table-fetch-edit-delete-ajax-laravel",
+          Pavatar:
+            "https://res.cloudinary.com/dcl67luxn/image/upload/v1543875011/4.png",
+          Pname: "Live-table-fetch-edit-delete",
+          Pdescription: "A web application for fetching, updating, deleting data from database. It is developed through Ajax & Laravel.",
+          Readlink: "/",
+        },
+         {
+          projectNo: "project10",
+          Demolink: null,
+          Github: "https://github.com/Mashfiqur/Laravel_8_Livewire_CRUD",
+          Pavatar:
+            "https://res.cloudinary.com/dcl67luxn/image/upload/v1543875011/4.png",
+          Pname: "Livewire Crud",
+          Pdescription: "A web application for fetching, updating, deleting data from database without page refreshing. It is developed through Laravel Livewire.",
           Readlink: "/",
         },
       ],
@@ -91,6 +155,24 @@ export default {
 
 #project5 {
   background: #12d654 linear-gradient(19deg, #035163 0%, #958d99 100%);
+}
+#project6 {
+  background: #eef7f1 linear-gradient(19deg, #3a393d 0%, #958d99 100%);
+}
+#project7 {
+  background: #f0f3f1 linear-gradient(19deg, #631e03 0%, #958d99 100%);
+}
+#project8 {
+  background: #12d654 linear-gradient(19deg, #630310 0%, #9c04e9 100%);
+}
+#project9 {
+  background: #cfddd4 linear-gradient(19deg, #0ef306 0%, #273fc5 100%);
+}
+#project10 {
+  background: #03471a linear-gradient(19deg, #376069 0%, #810fb9 100%);
+}
+#project11 {
+  background: #2e7a47 linear-gradient(19deg, #51b7ce 0%, #958d99 100%);
 }
 
 #projectCards {

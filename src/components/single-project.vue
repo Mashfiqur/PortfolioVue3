@@ -24,7 +24,14 @@
                   v-bind:href="data.Demolink"
                   target="_blank"
                   class="btn btn-info mx-2"
-                  >View Live</a
+                  >
+                  <span v-if="data.Github === null">
+                    View Live
+                  </span>
+                  <span v-else-if="data.Github !== null">
+                  <font-awesome-icon :icon="['fas', 'user-secret']" /> GitHub Link
+                  </span>
+                  </a
                 >
                 <a
                   v-bind:href="data.Readlink"

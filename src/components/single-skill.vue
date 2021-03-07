@@ -1,6 +1,6 @@
 <template>
   <div class="row container py-2">
-    <div class="col-2 text-center" style=" background:rgba(10,10,10,0.5) ;color: wheat;">
+    <div class="col-2 text-center" >
       <h3>{{ skill.name }}</h3>
     </div>
     <div class="col-10 pt-2 text-center">

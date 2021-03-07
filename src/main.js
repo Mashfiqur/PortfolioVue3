@@ -11,7 +11,13 @@ import Personal from './components/Personal.vue'
 import Reference from './components/Reference.vue'
 import Contact from './components/Contact.vue'
 import Skill from './components/Skills.vue'
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fas } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
+library.add(fas)
+
+Vue.component('font-awesome-icon', FontAwesomeIcon)
 import Toaster from 'v-toaster'
  
 // You need a specific loader for CSS files like https://github.com/webpack/css-loader
@@ -22,6 +28,12 @@ Vue.use(Toaster, {timeout: 5000})
 
 
 Vue.use(VueRouter)
+
+
+
+
+
+
 Vue.config.productionTip = false
 
 const router = new VueRouter({

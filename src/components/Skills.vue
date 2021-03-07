@@ -1,5 +1,5 @@
 <template>
-  <div class="container mt-5 pt-5">
+  <div class="container mt-5 pt-5" style=" background:rgba(10,10,10,0.5) ;color: wheat;">
       <div class="row"  v-for="skl in skills" v-bind:key="skl.id">
             
             <single-skill :skill="skl" />

@@ -17,6 +17,10 @@
                 TopUp and other exiciting projects. But enough about me, how
                 have you been?
               </h3>
+              <div class="btn-group m-t-2" role="group" aria-label="Basic example">
+                    <!-- <button type="button"  data-toggle="modal" data-target="#register">Register Now</button> -->
+                    <a class="btn btn-primary btn-lg" href="/contact">Contact Me</a>
+              </div>
             </div>
           </div>
         </div>
