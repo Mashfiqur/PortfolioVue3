@@ -1,5 +1,6 @@
 <template>
   <div class="container text-center">
+   <div class="row">
    <ul class="home-list mx-auto mt-5">
            <li><b>Father's Name:</b> Late Gias Uddin</li>   
            <li><b>Mother's Name:</b> Rasheda Begum</li>  
@@ -12,12 +13,21 @@
 
            </li> 
     </ul>
+    </div>
+
+    <div class="row">
+    <Slider />
+    </div>
+
   </div>
 </template>
 
 <script>
+import Slider from './Slider.vue'
+
 export default {
   name: "Personal",
+  components: { Slider },
 };
 </script>
 

@@ -20,19 +20,30 @@
                 class="card-footer"
                 style="background: inherit; border-color: inherit"
               >
-                <a
+                <a v-if="data.Github === null"
                   v-bind:href="data.Demolink"
                   target="_blank"
                   class="btn btn-info mx-2"
                   >
-                  <span v-if="data.Github === null">
+                  <span >
                     View Live
                   </span>
-                  <span v-else-if="data.Github !== null">
+                 
+                  </a
+                >
+               <a v-else-if="data.Github !== null"
+                  v-bind:href="data.Github"
+                  target="_blank"
+                  class="btn btn-info mx-2"
+                  >
+                  <span>
                   <font-awesome-icon :icon="['fas', 'user-secret']" /> GitHub Link
                   </span>
                   </a
                 >
+
+
+                 
                 <a
                   v-bind:href="data.Readlink"
                   target="_blank"
