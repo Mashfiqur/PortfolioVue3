@@ -1,8 +1,8 @@
 <template>
   <nav id="navbar" class="nav-container navbar-fixed-top" >
-  <ul class= "nav container" style="margin-top: -60px !important;">
+  <ul class= "nav container" style="margin-top: -55px !important;">
 <li class="">
-      <a class="nav-link logo" href="/"><img src="/images/mash1.png" alt="logo" width="120"/></a>
+      <a class="nav-link logo" href="/"><img src="/images/mash1.png" alt="Mashfiqur Rahman" width="120"/></a>
     </li>
     <li
       class="nav-item"
@@ -94,7 +94,7 @@ export default {
 }
 
 .nav-container {
-  background-color: #464646;
+  /* background-color: #464646; */
 }
 .nav-container .nav {
   list-style: none;

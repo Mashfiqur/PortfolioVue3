@@ -1,8 +1,8 @@
 <template>
-  <div>
+  <div class="glass">
     <VueSlickCarousel v-bind="settings">
       <div class="d-flex" v-for="i in images" :key="i.id">
-        <img width="40%" :src="i.image" />
+        <img width="50%" class="image-fluid" height="100%" :src="i.image" />
       </div>
     </VueSlickCarousel>
   </div>
@@ -22,19 +22,23 @@
       images: [
       {
         id: 1,
-        image:"https://cdn.pixabay.com/photo/2015/12/12/15/24/amsterdam-1089646_1280.jpg",
+        image:"images/football.jpg",
       },
       {
         id: 2,
-        image:"https://cdn.pixabay.com/photo/2016/02/17/23/03/usa-1206240_1280.jpg",
+        image:"images/cricket.jpg",
       },
       {
         id: 3,
-        image:"https://cdn.pixabay.com/photo/2015/05/15/14/27/eiffel-tower-768501_1280.jpg",
+        image:"images/tennis.jpg",
       },
       {
         id: 4,
-        image:"https://cdn.pixabay.com/photo/2016/12/04/19/30/berlin-cathedral-1882397_1280.jpg"
+        image:"images/music.jpg"
+      },
+      {
+        id: 5,
+        image:"images/math.jpg",
       } 
       ],
 
@@ -51,3 +55,9 @@
   },
   }
 </script>
+<style>
+.glass {
+  background-color: rgba(20, 20, 20, 0.8);
+  color: rgb(243, 241, 239);
+}
+</style>

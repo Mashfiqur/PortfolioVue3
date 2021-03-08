@@ -1,6 +1,6 @@
 <template>
   <div class="container text-center">
-   <div class="row">
+   <div class="row text-white">
    <ul class="home-list mx-auto mt-5">
            <li><b>Father's Name:</b> Late Gias Uddin</li>   
            <li><b>Mother's Name:</b> Rasheda Begum</li>  
@@ -35,7 +35,7 @@ export default {
 .home-list {
   list-style: none;
   width: 80%;
-  background: #ecf5ff;
+  background: rgba(82, 2, 2, 0.7);
   padding: 30px;
   border-radius: 4px;
   

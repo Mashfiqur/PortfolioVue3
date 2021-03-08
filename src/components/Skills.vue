@@ -61,8 +61,14 @@ export default {
         {
           id: "8",
           name: "Javascript",
-          percentage: "90",
+          percentage: "85",
           width: 'width:85%'
+        },
+        {
+          id: "9",
+          name: "Vue Js",
+          percentage: "70",
+          width: 'width:70%'
         },
       ],
     };

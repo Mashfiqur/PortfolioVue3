@@ -19,7 +19,12 @@
               </h3>
               <div class="btn-group m-t-2" role="group" aria-label="Basic example">
                     <!-- <button type="button"  data-toggle="modal" data-target="#register">Register Now</button> -->
-                    <a class="btn btn-primary btn-lg" href="/contact">Contact Me</a>
+                    
+                      <div class="col-md-12 py-2 pb-3 text-center">
+                    <a class="btn btn-primary btn-sm" href="/contact">Send Me A Message</a>
+
+                     
+                    </div>
               </div>
             </div>
           </div>
