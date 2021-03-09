@@ -2,7 +2,7 @@
   <div class="glass">
     <VueSlickCarousel v-bind="settings">
       <div class="d-flex" v-for="i in images" :key="i.id">
-        <img width="50%" class="image-fluid" height="100%" :src="i.image" />
+        <img width="20%" class=" d-flex image-fluid" :src="i.image" />
       </div>
     </VueSlickCarousel>
   </div>

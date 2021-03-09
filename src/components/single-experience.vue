@@ -4,12 +4,13 @@
             <div class="card__front">
               <div class="card card-01">
                 <div class="profile-box-01">
-                  <img class="card-img-top" src="https://images.pexels.com/photos/247599/pexels-photo-247599.jpeg?h=350&auto=compress&cs=tinysrgb" alt="Card image cap">
+                  <img class="card-img-top" :src="data.image" :alt="data.company">
                 </div>
                 <div class="card-body text-center" style="background:rgba(10,10,10,0.5);">
                   <span class="badge-box"><i class="fa fa-check"></i></span>
-                  <h4 class="card-title">{{ data.company }}</h4>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <h5>{{ data.title }}</h5>
+                  <p class="card-title">{{ data.company }}</p>
+                  <p class="card-text"><b>Address: </b> {{ data.address }}</p>
                   <a href="#" class="btn btn-default text-uppercase">Explore</a>
                 </div>
               </div>
@@ -18,8 +19,13 @@
             <div class="card__back">
               <div class="card card-01">
                 <div class="card-body text-center">
-                  <h4 class="card-title">Mike Parker</h4>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <h4 class="card-title">Responsibilities</h4>
+                  <div v-if="data.responsibility">
+                    <ul>
+                      <li v-for="(res, index) in data.responsibility" v-bind:key="`res-${index}`">{{res}}</li>
+
+                    </ul>
+                  </div>
                   <span class="social-box">
                 <a href="#"><i class="fa fa-facebook"></i></a>
                 <a href="#"><i class="fa fa-twitter"></i></a>

@@ -10,7 +10,7 @@
       :key="link.id"
     >
        <router-link  class="nav-link"
-        :class="link.id === selectedIndex ? 'active' : null" :to=" link.url">
+       :to=" link.url">
         <i class="menu-icon" :class="link.icon"></i>
         <span>{{ link.text }}</span>
         </router-link>
@@ -93,9 +93,9 @@ export default {
   padding: 0;
 }
 
-.nav-container {
-  /* background-color: #464646; */
-}
+/* .nav-container {
+  background-color: lightblue;
+} */
 .nav-container .nav {
   list-style: none;
   padding: 0 20px;
