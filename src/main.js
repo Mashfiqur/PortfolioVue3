@@ -14,6 +14,10 @@ import Skill from './components/Skills.vue'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fas } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+import Axios from 'axios'
+import VueAxios from 'vue-axios'
+import VModal from 'vue-js-modal'
+
 
 library.add(fas)
 
@@ -28,8 +32,8 @@ Vue.use(Toaster, {timeout: 5000})
 
 
 Vue.use(VueRouter)
-
-
+Vue.use(VueAxios, Axios)
+Vue.use(VModal)
 
 
 

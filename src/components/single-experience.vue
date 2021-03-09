@@ -1,17 +1,19 @@
 <template>
         
           <div class="card-flipper effect__hover" data-id="1">
-            <div class="card__front">
+            <div class="card__front d-flex">
               <div class="card card-01">
                 <div class="profile-box-01">
-                  <img class="card-img-top" :src="data.image" :alt="data.company">
+                  <img class="card-img-top py-4" :src="data.image" :alt="data.company">
+                  <hr>
                 </div>
-                <div class="card-body text-center" style="background:rgba(10,10,10,0.5);">
+                <div class="card-body text-left" style="text-align:left !important; line-hieght: 20px;">
                   <span class="badge-box"><i class="fa fa-check"></i></span>
-                  <h5>{{ data.title }}</h5>
-                  <p class="card-title">{{ data.company }}</p>
+                  <h5><b>Position: </b>{{ data.title }}</h5>
+                  <small><b>Duration: </b>{{ data.duration }}</small>
+                  <p class="card-title"><b>Company: </b>{{ data.company }}</p>
                   <p class="card-text"><b>Address: </b> {{ data.address }}</p>
-                  <a href="#" class="btn btn-default text-uppercase">Explore</a>
+                  
                 </div>
               </div>
             </div>
@@ -56,7 +58,7 @@ export default {
 .card {
   box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.3);
   border: 10px solid #fcf5d3;
-  margin-bottom: 30px;
+  
 }
 .card-01 .card-body {
   position: relative;
@@ -147,7 +149,7 @@ background: -ms-linear-gradient(top,  #1e5799 0%,#7db9e8 100%); /* IE10+ */
   float: left;
   width: 100%;
   text-align: center;
-  height: 450px;
+  height: 400px;
 }
 
 .card__front, .card__back {
@@ -155,12 +157,12 @@ background: -ms-linear-gradient(top,  #1e5799 0%,#7db9e8 100%); /* IE10+ */
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  
 }
 
 .card__back .card {
   width: 100%;
-  height: 450px;
+  height: 400px;
 }
 
 .card__front, .card__back {
@@ -171,7 +173,7 @@ background: -ms-linear-gradient(top,  #1e5799 0%,#7db9e8 100%); /* IE10+ */
 }
 
 .card__front {
-  background-color: #ff5078;
+  height: 400px;
 }
 
 .card__back {

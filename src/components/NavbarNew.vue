@@ -1,87 +1,103 @@
 <template>
-  <nav id="navbar" class="nav-container navbar-fixed-top" >
-  <ul class= "nav container" style="margin-top: -55px !important;">
-<li class="">
-      <a class="nav-link logo" href="/"><img src="/images/mash1.png" alt="Mashfiqur Rahman" width="120"/></a>
-    </li>
-    <li
-      class="nav-item"
-      v-for="link in links"
-      :key="link.id"
-    >
-       <router-link  class="nav-link"
-       :to=" link.url">
-        <i class="menu-icon" :class="link.icon"></i>
-        <span>{{ link.text }}</span>
+  <nav id="navbar" class="nav-container navbar-fixed-top">
+    <ul class="nav container" style="margin-top: -55px !important">
+      <li class="">
+        <router-link class="nav-link logo" to="/">
+          <span
+            ><img src="/images/mash1.png" alt="Mashfiqur Rahman" width="120"
+          /></span>
         </router-link>
-
-     
-    </li>
-<a class="flat-butt flat-info-butt flat-info-grad-butt" download="Mashfiqur_Rahman.docx" href="/files/Cv_Md.Mashfiqur_Rahman.docx">Download CV/ Resume</a>
-
-  </ul>
-  
- 
-</nav>
+      </li>
+      <li class="nav-item" v-for="link in links" :key="link.id">
+        <router-link class="nav-link" :to="link.url">
+          <i class="menu-icon" :class="link.icon"></i>
+          <span class="" style="text-decoration: underline solid black !important; text-underline-offset:2px;">{{ link.text }}</span>
+          
+        </router-link>
+      </li>
+      <a
+        class="flat-butt flat-info-butt flat-info-grad-butt"
+        download="Mashfiqur_Rahman.docx"
+        @click="downloadCV( '/files/Cv_Md.Mashfiqur_Rahman.docx', 'Mashfiqur_Rahman.docx' )"
+        >Download CV/ Resume</a
+      >
+    </ul>
+  </nav>
 </template>
+
+
 
 <script>
 export default {
   data() {
     return {
+      url:'/files/Cv_Md.Mashfiqur_Rahman.docx',
       links: [
         {
           id: 1,
           icon: "fab fa-react",
           text: "Home",
-          url: '/'
+          url: "/",
         },
         {
           id: 2,
           icon: "fab fa-angular",
           text: "Education",
-          url: '/education'
+          url: "/education",
         },
         {
           id: 3,
           icon: "fab fa-vuejs",
           text: "Experience",
-          url: '/experience'
+          url: "/experience",
         },
         {
           id: 4,
           icon: "fab fa-js",
           text: "Skills",
-          url: '/skills'
+          url: "/skills",
         },
         {
           id: 5,
           icon: "fab fa-html5",
           text: "Projects",
-          url: '/projects'
+          url: "/projects",
         },
         {
           id: 6,
           icon: "fab fa-css3-alt",
           text: "Personal Info",
-          url: '/personal'
+          url: "/personal",
         },
         {
           id: 7,
           icon: "fab fa-js",
           text: "References",
-          url: '/reference'
+          url: "/reference",
         },
         {
           id: 8,
           icon: "fab fa-js",
           text: "Contact",
-          url: '/contact'
+          url: "/contact",
         },
       ],
     };
   },
-}
+  methods: {
+    downloadCV ( url, label ) {
+    this.axios.get(url, { responseType: 'blob' })
+      .then(response => {
+        const blob = new Blob([response.data], { type: 'application/docx' })
+        const link = document.createElement('a')
+        link.href = URL.createObjectURL(blob)
+        link.download = label
+        link.click()
+        URL.revokeObjectURL(link.href)
+      }).catch(console.error)
+  }  
+  },
+};
 </script>
 
 <style>
@@ -162,7 +178,8 @@ export default {
   background-color: #ccc;
   position: relative;
 }
-.nav-container .hambergur-menu .bar:after, .nav-container .hambergur-menu .bar:before {
+.nav-container .hambergur-menu .bar:after,
+.nav-container .hambergur-menu .bar:before {
   content: "";
   position: absolute;
   width: 28px;
@@ -197,8 +214,8 @@ export default {
   font-size: 16.5px;
   padding: 3px 10px;
   border: 0;
-  background: #34495E;
-  color: #FFF;
+  background: #34495e;
+  color: #fff;
   cursor: pointer;
   outline: 0;
 }
@@ -213,6 +230,14 @@ export default {
   background: #5dade2;
 }
 .flat-info-grad-butt {
-  background-image: linear-gradient(#3498DB 50%, #2980B9 50%);
+  background-image: linear-gradient(#3498db 50%, #2980b9 50%);
 }
 </style>
+
+
+
+
+
+
+
+

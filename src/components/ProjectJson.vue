@@ -32,7 +32,8 @@ export default {
           Pname: "Manage Your Ecommerce",
           Pdescription:
             "A web application where you can manage the inventory of your marketplaces (e.g. Amazon, Ebay, Woo-commerce etc) in one place.",
-          Readlink: "/",
+          Description: "",
+
         },
         {
           projectNo: "project2",
@@ -43,7 +44,7 @@ export default {
           Pname: "Inventory Keeper",
           Pdescription:
             " A web application where you can manage all your inventory like send shipment, dispatch box, search by different attribute and role by actions.",
-          Readlink: "/",
+          Description: "",
         },
         {
           projectNo: "project3",
@@ -54,7 +55,7 @@ export default {
           Pname: "Attendance Keeper",
           Pdescription:
             "This is an application where you can manage your staffs as well as employees in one platform.There are two different portal for an employee and admin respectively. Besides this, a super admin can manage everything.",
-          Readlink: "/",
+          Description: "",
         },
         {
           projectNo: "project4",
@@ -64,7 +65,7 @@ export default {
             "https://res.cloudinary.com/dcl67luxn/image/upload/v1543875011/4.png",
           Pname: "Evident BD",
           Pdescription: "A web application for Evident BD Ltd",
-          Readlink: "/",
+          Description: "",
         },
          {
           projectNo: "project5",
@@ -74,7 +75,7 @@ export default {
             "https://res.cloudinary.com/dcl67luxn/image/upload/v1543875011/4.png",
           Pname: "Supplier Distributor Management",
           Pdescription: "A web application where distributors can order for products to the registered suppliers. On the other hand, Suppliers can see which products they have to supply for a particular company!",
-          Readlink: "/",
+          Description: "",
         },
          {
           projectNo: "project6",
@@ -84,7 +85,7 @@ export default {
             "https://res.cloudinary.com/dcl67luxn/image/upload/v1543875011/4.png",
           Pname: "Video Chat Application",
           Pdescription: "A web application for video chatting where users can chat with his/her friends. It is developed through WebRTC(Web Real Time Communication) and Pusher.",
-          Readlink: "/",
+          Description: "",
         },
          {
           projectNo: "project7",
@@ -94,7 +95,7 @@ export default {
             "https://res.cloudinary.com/dcl67luxn/image/upload/v1543875011/4.png",
           Pname: "Law Library",
           Pdescription: "The website of cases is mainly for law students and for lawyers where different types of cases will be stored in an organized way and students will be able to search this data using keyword.",
-          Readlink: "/",
+          Description: "",
         },
         {
           projectNo: "project8",
@@ -104,7 +105,7 @@ export default {
             "https://res.cloudinary.com/dcl67luxn/image/upload/v1543875011/4.png",
           Pname: "Personal Portfolio",
           Pdescription: "A personal portfolio of mine which is developed on Vue Js 3.",
-          Readlink: "/",
+          Description: "",
         },
          {
           projectNo: "project9",
@@ -114,7 +115,7 @@ export default {
             "https://res.cloudinary.com/dcl67luxn/image/upload/v1543875011/4.png",
           Pname: "Live-table-fetch-edit-delete",
           Pdescription: "A web application for fetching, updating, deleting data from database. It is developed through Ajax & Laravel.",
-          Readlink: "/",
+          Description: "",
         },
          {
           projectNo: "project10",
@@ -124,7 +125,7 @@ export default {
             "https://res.cloudinary.com/dcl67luxn/image/upload/v1543875011/4.png",
           Pname: "Livewire Crud",
           Pdescription: "A web application for fetching, updating, deleting data from database without page refreshing. It is developed through Laravel Livewire.",
-          Readlink: "/",
+          Description: "",
         },
       ],
     };

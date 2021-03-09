@@ -48,24 +48,30 @@ export default {
         },
         {
           id: "6",
-          name: "JQuery",
+          name: "SQL",
           percentage: "85",
           width: 'width:85%'
         },
         {
           id: "7",
+          name: "JQuery",
+          percentage: "80",
+          width: 'width:80%'
+        },
+        {
+          id: "8",
           name: "GIT",
           percentage: "90",
           width: 'width:90%'
         },
         {
-          id: "8",
+          id: "9",
           name: "Javascript",
           percentage: "85",
           width: 'width:85%'
         },
         {
-          id: "9",
+          id: "10",
           name: "Vue Js",
           percentage: "70",
           width: 'width:70%'

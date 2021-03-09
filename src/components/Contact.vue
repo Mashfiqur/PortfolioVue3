@@ -9,9 +9,9 @@
 
       <section class="section2 clearfix flex">
         <div class="col2 column1 first mt-5">
-          <p class="text-dark pb-4 ">
-            29/1, 2, 3 Justice Lalmohon Daslane, Sutrapur, Dhaka-1100
-          </p>
+          <h5 class="text-dark pb-4 ">
+           <b> 29/1, 2, 3 Justice Lalmohon Daslane, Sutrapur, Dhaka-1100</b>
+          </h5>
 
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d543.0386950472878!2d90.41964807106795!3d23.707610690198756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b9cb3f456ad1%3A0xc9dd249bf70228d8!2sAjimon%20Tower!5e0!3m2!1sen!2sbd!4v1615006607770!5m2!1sen!2sbd"
@@ -32,7 +32,7 @@
                 <a
                   target="_blank"
                   rel="noopener noreferrer" style="color: white !important; text-decoration:none;"
-                  href="https://github.com/Mashfiqur"
+                  @click="gotoLink('https://github.com/Mashfiqur')"
                   >https://github.com/Mashfiqur</a
                 >
               </p>
@@ -51,6 +51,12 @@ import ContactForm from "./contact-form.vue";
 export default {
   name: "Contact",
   components: { ContactForm },
+   methods:
+    {
+        gotoLink: function (link, target = '_blank') {
+            window.open(link, target);
+        }
+     },
 };
 </script>
 

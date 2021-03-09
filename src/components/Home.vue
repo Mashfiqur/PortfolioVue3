@@ -21,8 +21,11 @@
                     <!-- <button type="button"  data-toggle="modal" data-target="#register">Register Now</button> -->
                     
                       <div class="col-md-12 py-2 pb-3 text-center">
-                    <a class="btn btn-primary btn-sm" href="/contact">Send Me A Message</a>
-
+                    
+<router-link class="btn btn-primary btn-sm" to="/contact">
+          <span
+            >Send Me A Message</span>
+        </router-link>
                      
                     </div>
               </div>
@@ -37,6 +40,12 @@
 <script>
 export default {
   name: "Home",
+   methods:
+    {
+        gotoLink: function (link, target = '_blank') {
+            window.open(link, target);
+        }
+     }
 };
 </script>
 

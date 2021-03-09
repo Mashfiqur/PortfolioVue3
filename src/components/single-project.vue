@@ -1,69 +1,70 @@
 <template>
-            
-            <div class="card card-custom bg-white border-white border-0">
-              <!--Enter Project Logo/Favicon here-->
-              <div class="card-custom-img" v-bind:id="data.projectNo"></div>
-              <a v-bind:href="data.Demolink" target="_blank" class="grow">
-                <div class="card-custom-avatar">
-                  <img
-                    class="img-fluid"
-                   v-bind:src="data.Pavatar"
-                    alt="Avatar"
-                  />
-                </div>
-              </a>
-              <div class="card-body" style="overflow-y: auto">
-                <h4 class="card-title">{{ data.Pname }}</h4>
-                <p class="card-text">{{ data.Pdescription }}</p>
-              </div>
-              <div
-                class="card-footer"
-                style="background: inherit; border-color: inherit"
-              >
-                <a v-if="data.Github === null"
-                  v-bind:href="data.Demolink"
-                  target="_blank"
-                  class="btn btn-info mx-2"
-                  >
-                  <span >
-                    View Live
-                  </span>
-                 
-                  </a
-                >
-               <a v-else-if="data.Github !== null"
-                  v-bind:href="data.Github"
-                  target="_blank"
-                  class="btn btn-info mx-2"
-                  >
-                  <span>
-                  <font-awesome-icon :icon="['fas', 'user-secret']" /> GitHub Link
-                  </span>
-                  </a
-                >
+  <div class="card card-custom bg-white border-white border-0">
+    <!--Enter Project Logo/Favicon here-->
+    <div class="card-custom-img" v-bind:id="data.projectNo"></div>
+    <a @click="gotoLink(data.Demolink)" target="_blank" class="grow">
+      <div class="card-custom-avatar">
+        <img class="img-fluid" v-bind:src="data.Pavatar" alt="Avatar" />
+      </div>
+    </a>
+    <div class="card-body" style="overflow-y: auto">
+      <h4 class="card-title">{{ data.Pname }}</h4>
+      <p class="card-text">{{ data.Pdescription }}</p>
+    </div>
+    <div class="card-footer" style="background: inherit; border-color: inherit">
+      <a
+        v-if="data.Github === null"
+        @click="gotoLink(data.Demolink)"
+        target="_blank"
+        class="btn btn-info btn-sm mx-2"
+      >
+        <span> View Live </span>
+      </a>
+      <a
+        v-else-if="data.Github !== null"
+        @click="gotoLink(data.Github)"
+        target="_blank"
+        class="btn btn-info btn-sm mx-2"
+      >
+        <span>
+          <font-awesome-icon :icon="['fas', 'user-secret']" /> GitHub Link
+        </span>
+      </a>
 
-
-                 
-                <a
-                  v-bind:href="data.Readlink"
-                  target="_blank"
-                  class="ml-2 btn btn-outline-primary"
-                  >Read More</a
-                >
-               
-              </div>
-            </div>
-          
+      <a
+        @click.prevent="show(data.projectNo)"
+        target="_blank"
+        class="ml-2 btn btn-success btn-sm"
+        >Read More</a
+      >
+      <modal :name="data.projectNo">
+        <div class="container py-3 bg-dark text-white" style="height: 100%;">
+          <h5 class="text-center">{{ data.Pname }}</h5>
+          <p>{{ data.Pdescription }}</p>
+        </div>
+      </modal>
+    </div>
+  </div>
 </template>
 
 <script>
 export default {
-  props: ['data'],
+  props: ["data"],
+
   data() {
-        return {};
-            
-        }
-    
+    return {};
+  },
+  methods: {
+    gotoLink: function (link, target = "_blank") {
+      window.open(link, target);
+    },
+    show: function (project) {
+      this.$modal.show(project);
+    },
+    hide() {
+      this.$modal.hide("project");
+    },
+  },
 };
 </script>
 
