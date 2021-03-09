@@ -25,11 +25,30 @@ export default {
       experiences: [
         {
           id: '1',
+          title: 'Software Engineer',
           company: "Amin Travels & Tours",
+          image: 'images/amin.jpeg',
+          address: '131, DIT Extension Road Fakirapool 1100 Dhaka, Dhaka Division, Bangladesh',
+          responsibility:[
+            'Design the architecture of web application',
+            'Build an inventory system'
+          ]
+            
+          
         },
         {
           id: '2',
-          company: "Evident BD",
+          title: 'Software Engineer',
+          company: "Westace BD",
+          image: 'images/westace.png',
+          address:'Mashru Cottage, House: 23, Road: 3/C, Sector: 9 Dhaka, 1230',
+          responsibility:[
+            'Design the architecture of web application',
+            'Build an inventory system',
+            'Write complex queries in SQL'
+
+          ]
+
         },
 
       ]
