@@ -5,18 +5,19 @@
         <div class="row py-5 mt-5">
           <div class="col-lg-12">
             <div class=" card glass ">
-              <h1>Hi there!</h1>
-              <h2>
-                My name is Md. Mashfiqur Rahman. <br />I am Web Application Designer from
-                Bangladesh.
-              </h2>
-              <h3>
-                I have over 2 years experience of digital design expertise. I
-                had the opportunity to produce numerous digital projects for
-                national clients such as Takon, Spots, Pay.id, Appsence, Fasyen,
-                TopUp and other exiciting projects. But enough about me, how
+              <h1> <span style='font-size:40px;'>&#9995;</span> Hi there!</h1>
+              <h4>
+                My name is Md. Mashfiqur Rahman.
+              </h4>
+              <p style="color:wheat;">I am a Web Application Designer from
+                Bangladesh.</p>
+              <h5 style="font-family: Gill Sans Extrabold, sans-serif;">
+                I have over 1.2 years experience of digital design expertise. I
+                had the opportunity to produce some digital projects for
+                clients such as Inventory Management, Ecommerce, Attendance Keeper,
+                Library Management and other exiciting projects. But enough about me, how
                 have you been?
-              </h3>
+              </h5>
               <div class="btn-group m-t-2" role="group" aria-label="Basic example">
                     <!-- <button type="button"  data-toggle="modal" data-target="#register">Register Now</button> -->
                     

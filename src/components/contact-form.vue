@@ -55,24 +55,43 @@ export default {
     };
   },
   methods: {
-    sendEmail(e) {
-      try {
-        emailjs.sendForm(
-          "service_zgapu0w",
-          "template_64yetzs",
-          e.target,
-          "user_59CZDqvxkwhM4iH8qaK7y",
-          {
+    sendEmail() {
+      var ContactParam = {
             name: this.name,
             address: this.address,
             phone: this.phone,
             email: this.email,
             message: this.message,
-          }
-        );
-      } catch (error) {
-        console.log({ error });
-      }
+          };
+          emailjs.send('service_zgapu0w', 'template_rsnqtnf', ContactParam)
+    .then(function(response) {
+      // if(response.status === 200){
+      //   var status = 'ok'
+      // }
+      
+      console.log('SUCCESS!', response.status, response.text);
+      
+    }, function(error) {
+       console.log('FAILED...', error);
+    });
+    // if(status === 'ok'){
+    // this.$toaster.success("Email has been sent successfully!");
+
+    // }
+    // else{
+    //   this.$toaster.error("OOPS! Email has not been sent. Please try again");
+    // }
+      // try {
+      //   emailjs.sendForm(
+      //     "service_zgapu0w",
+      //     "template_64yetzs",
+      //     e.target,
+      //     "user_59CZDqvxkwhM4iH8qaK7y",
+      //     ContactParam
+      //   );
+      // } catch (error) {
+      //   console.log({ error });
+      // }
       // Reset form field
       this.name = "";
       this.addres = "";
@@ -82,9 +101,7 @@ export default {
       this.$toaster.success("Email has been sent successfully!");
     },
   },
-  //   mounted() {
-  //     this.$toaster.success("Email has been sent successfully!");
-  //   },
+ 
 };
 </script>
 

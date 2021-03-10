@@ -28,11 +28,12 @@ export default {
           Demolink: "https://manageyourecommerce.com/",
           Github: null,
           Pavatar:
-            "https://res.cloudinary.com/dcl67luxn/image/upload/v1543875011/3.png",
+            "images/mye.png",
           Pname: "Manage Your Ecommerce",
           Pdescription:
             "A web application where you can manage the inventory of your marketplaces (e.g. Amazon, Ebay, Woo-commerce etc) in one place.",
           Description: "",
+          
 
         },
         {
@@ -40,29 +41,33 @@ export default {
           Demolink: "https://inventorykeeper.net/",
           Github: null,
           Pavatar:
-            "https://res.cloudinary.com/dcl67luxn/image/upload/v1543875011/4.png",
+            "images/inventory.png",
           Pname: "Inventory Keeper",
           Pdescription:
             " A web application where you can manage all your inventory like send shipment, dispatch box, search by different attribute and role by actions.",
           Description: "",
+      
+
         },
         {
           projectNo: "project3",
           Demolink: "https://attendancekeeper.net/",
           Github: null,
           Pavatar:
-            "https://res.cloudinary.com/dcl67luxn/image/upload/v1543875011/2.png",
+            "images/attendancekeeper.jpg",
           Pname: "Attendance Keeper",
           Pdescription:
             "This is an application where you can manage your staffs as well as employees in one platform.There are two different portal for an employee and admin respectively. Besides this, a super admin can manage everything.",
           Description: "",
+          
+
         },
         {
           projectNo: "project4",
           Demolink: "https://evidentbd.com/",
           Github: null,
           Pavatar:
-            "https://res.cloudinary.com/dcl67luxn/image/upload/v1543875011/4.png",
+            "images/evident.png",
           Pname: "Evident BD",
           Pdescription: "A web application for Evident BD Ltd",
           Description: "",
@@ -72,7 +77,7 @@ export default {
           Demolink: null,
           Github: "https://github.com/Mashfiqur/Inventory_Supplier_Company",
           Pavatar:
-            "https://res.cloudinary.com/dcl67luxn/image/upload/v1543875011/4.png",
+            "images/supplier.png",
           Pname: "Supplier Distributor Management",
           Pdescription: "A web application where distributors can order for products to the registered suppliers. On the other hand, Suppliers can see which products they have to supply for a particular company!",
           Description: "",
@@ -82,7 +87,7 @@ export default {
           Demolink: null,
           Github: "https://github.com/Mashfiqur/Video-Chat-WebRTC-Pusher-Laravel",
           Pavatar:
-            "https://res.cloudinary.com/dcl67luxn/image/upload/v1543875011/4.png",
+            "images/video.jpeg",
           Pname: "Video Chat Application",
           Pdescription: "A web application for video chatting where users can chat with his/her friends. It is developed through WebRTC(Web Real Time Communication) and Pusher.",
           Description: "",
@@ -92,7 +97,7 @@ export default {
           Demolink: null,
           Github: "https://github.com/Mashfiqur/law_library",
           Pavatar:
-            "https://res.cloudinary.com/dcl67luxn/image/upload/v1543875011/4.png",
+            "images/law.jpeg",
           Pname: "Law Library",
           Pdescription: "The website of cases is mainly for law students and for lawyers where different types of cases will be stored in an organized way and students will be able to search this data using keyword.",
           Description: "",
@@ -102,7 +107,7 @@ export default {
           Demolink: null,
           Github: "https://github.com/Mashfiqur/PortfolioVue3",
           Pavatar:
-            "https://res.cloudinary.com/dcl67luxn/image/upload/v1543875011/4.png",
+            "images/portfolio.jpeg",
           Pname: "Personal Portfolio",
           Pdescription: "A personal portfolio of mine which is developed on Vue Js 3.",
           Description: "",
@@ -112,7 +117,7 @@ export default {
           Demolink: null,
           Github: "https://github.com/Mashfiqur/Live-table-fetch-edit-delete-ajax-laravel",
           Pavatar:
-            "https://res.cloudinary.com/dcl67luxn/image/upload/v1543875011/4.png",
+            "images/crud8.png",
           Pname: "Live-table-fetch-edit-delete",
           Pdescription: "A web application for fetching, updating, deleting data from database. It is developed through Ajax & Laravel.",
           Description: "",
@@ -122,7 +127,7 @@ export default {
           Demolink: null,
           Github: "https://github.com/Mashfiqur/Laravel_8_Livewire_CRUD",
           Pavatar:
-            "https://res.cloudinary.com/dcl67luxn/image/upload/v1543875011/4.png",
+            "images/crud.png",
           Pname: "Livewire Crud",
           Pdescription: "A web application for fetching, updating, deleting data from database without page refreshing. It is developed through Laravel Livewire.",
           Description: "",

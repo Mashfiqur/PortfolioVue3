@@ -34,7 +34,7 @@
                 <a href="#"><i class="fa fa-google-plus"></i></a>
                 <a href="#"><i class="fa fa-dribbble"></i></a>
                 <a href="#"><i class="fa fa-behance"></i></a>
-            </span>
+                 </span>
                 </div>
               </div>
             </div>

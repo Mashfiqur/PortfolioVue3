@@ -38,8 +38,8 @@
         >Read More</a
       >
       <modal :name="data.projectNo">
-        <div class="container py-3 bg-dark text-white" style="height: 100%;">
-          <h5 class="text-center">{{ data.Pname }}</h5>
+        <div class="container py-3 text-dark" style="background: #d5b7d5; height: 100%;">
+          <h5 class="text-center"> <img class="img-fluid mr-4 " v-bind:src="data.Pavatar" width="40px;" alt="Avatar" /><span class="" style="color:#2a3cbc;"> {{ data.Pname }}</span> </h5>
           <p>{{ data.Pdescription }}</p>
         </div>
       </modal>

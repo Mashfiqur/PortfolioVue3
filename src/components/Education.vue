@@ -11,8 +11,8 @@
         
       </div>
       <div class="col-sm-8 glass">
-          <h5>North South University</h5>
-          <p>Bashundhara Residential Area, Dhaka 1229</p>
+          <h5 class="mt-2 text-info">North South University</h5>
+          <p style="color:wheat;">Bashundhara Residential Area, Dhaka 1229</p>
           <hr>
           <div class="text-left">
           <p><b>Degree: </b> Bachelor of Science in Computer Science & Engineering</p>
@@ -35,8 +35,8 @@
         
       </div>
       <div class="col-sm-8 glass">
-          <h5>Engineering University School & College</h5>
-          <p>BUET Campus, Dhaka 1000</p>
+          <h5 class="mt-2 text-info">Engineering University School & College</h5>
+          <p style="color:wheat;">BUET Campus, Dhaka 1000</p>
           <hr>
             <div class="text-left">
               <p><b>Group: </b>Science <span class="ml-5 pl-2"><b>Board:</b> Dhaka </span></p>
@@ -58,8 +58,8 @@
         
       </div>
       <div class="col-sm-8 glass">
-          <h5>St. Gregory's High School</h5>
-          <p>82 Municipal Office Street, Dhaka 1100</p>
+          <h5 class="mt-2 text-info">St. Gregory's High School</h5>
+          <p style="color:wheat;">82 Municipal Office Street, Dhaka 1100</p>
           <hr>
           <div class="text-left">
               <p><b>Group: </b>Science <span class="ml-5 pl-2"><b>Board:</b> Dhaka </span></p>

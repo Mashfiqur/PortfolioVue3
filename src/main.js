@@ -17,7 +17,8 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import Axios from 'axios'
 import VueAxios from 'vue-axios'
 import VModal from 'vue-js-modal'
-
+import{ init } from 'emailjs-com';
+init("user_59CZDqvxkwhM4iH8qaK7y");
 
 library.add(fas)
 
