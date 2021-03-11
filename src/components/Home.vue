@@ -18,17 +18,17 @@
                 Library Management and other exiciting projects. But enough about me, how
                 have you been?
               </h5>
-              <div class="btn-group m-t-2" role="group" aria-label="Basic example">
+              
                     <!-- <button type="button"  data-toggle="modal" data-target="#register">Register Now</button> -->
                     
-                      <div class="col-md-12 py-2 pb-3 text-center">
+                      <div class="col-md-12 col-sm-12 py-2 pb-3 text-center">
                     
 <router-link class="btn btn-primary btn-sm" to="/contact">
           <span
             >Send Me A Message</span>
         </router-link>
                      
-                    </div>
+                    
               </div>
             </div>
           </div>

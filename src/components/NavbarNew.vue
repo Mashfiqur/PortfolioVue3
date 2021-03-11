@@ -1,6 +1,6 @@
 <template>
   <nav id="navbar" class="nav-container navbar-fixed-top">
-    <ul class="nav container" style="margin-top: -55px !important">
+    <ul class="nav" style="margin-top: -55px !important">
       <li class="">
         <router-link class="nav-link logo" to="/">
           <span
@@ -8,7 +8,7 @@
           /></span>
         </router-link>
       </li>
-      <li class="nav-item" v-for="link in links" :key="link.id">
+      <li class="nav-item ml-2" v-for="link in links" :key="link.id">
         <router-link class="nav-link" :to="link.url">
           <i class="menu-icon" :class="link.icon"></i>
           <span class="" style="text-decoration: underline solid black !important; text-underline-offset:2px;">{{ link.text }}</span>
