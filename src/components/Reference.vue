@@ -13,7 +13,7 @@
         <h3 class="text-center">	Dr. Mohammad Monirujjaman Khan</h3>
         <p class=" text-secondary">Associate Professor</p>
 
-        <small class="mx-3 text-primary">PhD, Electrical and Electronic Engineering, Queen Mary University of London, UK</small>
+        <small class="mx-3 text-info">PhD, Electrical and Electronic Engineering, Queen Mary University of London, UK</small>
        <br>
         <small><b>Email: </b>monirujjaman.khan@northsouth.edu</small><br>
         <small><b>Phone: </b>+88 02 55668200 Ext – 1533</small>
@@ -28,7 +28,7 @@
         <h3 class="text-center">Dr. Mohammad Ashrafuzzaman Khan</h3>
         <p class=" text-secondary">Assistant Professor</p>
 
-        <small class="mx-3 text-primary">Ph.D., Computer Science, New Jersey Institute of Technology, Newark,  NJ, USA.</small>
+        <small class="mx-3 text-info">Ph.D., Computer Science, New Jersey Institute of Technology, Newark,  NJ, USA.</small>
        <br>
         <small><b>Email: </b>mohammad.khan02@northsouth.edu</small><br>
         <small><b>Phone: </b>Not Available</small>
@@ -43,7 +43,7 @@
         <h3 class="text-center">Ms. Rummana Rahman</h3>
         <p class=" text-secondary">Senior Lecturer</p>
 
-        <small class="mx-3 text-primary">MS in Electrical and Computer Engineering , Rutgers, The State University of New Jersey, USA</small>
+        <small class="mx-3 text-info">MS in Electrical and Computer Engineering , Rutgers, The State University of New Jersey, USA</small>
        <br>
         <small><b>Email: </b>rummana.rahman@northsouth.edu</small><br>
         <small><b>Phone: </b>+88 02 55668200 Ext – 6186</small>

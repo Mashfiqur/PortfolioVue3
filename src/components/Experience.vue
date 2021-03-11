@@ -32,7 +32,9 @@ export default {
           duration: 'November 2019 - July 2020',
           responsibility:[
             'Design the architecture of web application',
-            'Build an inventory system'
+            'Build an inventory system',
+            'Design the whole Database',
+            
           ]
             
           
@@ -46,8 +48,11 @@ export default {
           duration: 'August 2020 - Present',
           responsibility:[
             'Design the architecture of web application',
-            'Build an inventory system',
-            'Write complex queries in SQL'
+            'Build an inventory system, Attendance Keeper, Manage Ecommerce Platform',
+            'Write complex queries in SQL',
+            'Add feature of creating invoice for their customers',
+            'Design frontend',
+            'Design backend with PHP'
 
           ]
 

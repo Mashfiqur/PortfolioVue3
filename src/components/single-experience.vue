@@ -23,7 +23,7 @@
                 <div class="card-body text-center">
                   <h4 class="card-title">Responsibilities</h4>
                   <div v-if="data.responsibility">
-                    <ul>
+                    <ul style="text-align: left;">
                       <li v-for="(res, index) in data.responsibility" v-bind:key="`res-${index}`">{{res}}</li>
 
                     </ul>

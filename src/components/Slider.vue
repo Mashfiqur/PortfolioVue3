@@ -1,8 +1,8 @@
 <template>
-  <div class="glass">
+  <div class="">
     <VueSlickCarousel v-bind="settings">
       <div class="d-flex" v-for="i in images" :key="i.id">
-        <img width="20%" class=" d-flex image-fluid" :src="i.image" />
+        <img width="30%" class=" d-flex image-fluid" :src="i.image" />
       </div>
     </VueSlickCarousel>
   </div>
@@ -39,7 +39,11 @@
       {
         id: 5,
         image:"images/math.jpg",
-      } 
+      },
+       {
+        id: 6,
+        image:"images/nature.jpg",
+      }  
       ],
 
       settings: {
